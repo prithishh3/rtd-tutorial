@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+Rough Ellipsoid Structure Tools (REST)!
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
