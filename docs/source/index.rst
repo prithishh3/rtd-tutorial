@@ -1,8 +1,8 @@
 Rough Ellipsoid Structure Tools (REST)
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
+**REST** is a Java GUI application package for generating realistic cosmic dust structures.
+It generates the following structures
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
