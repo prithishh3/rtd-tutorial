@@ -1,4 +1,4 @@
-Rough Ellipsoid Structure Tools (REST)!
+Rough Ellipsoid Structure Tools (REST)
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
