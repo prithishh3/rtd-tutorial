@@ -11,6 +11,6 @@ Installing Dependencies
    
    **Ubuntu**
    
-   .. code:: console
+   .. code-block:: console
    $ sudo apt-get install openjdk-11-jdk
 
