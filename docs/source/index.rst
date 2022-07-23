@@ -13,9 +13,6 @@ It uses the following algorithms :
         5. Poked Structure Super-ellipsoid (PS-SE)
         6. Rough Fractal Aggregates (RFA)
 
-#. This is a numbered list.
-#. It has two items too.
-
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
