@@ -29,6 +29,8 @@ Installation
 
        $./REST.sh
 
+.. image:: er1.png
+
 First Run
 ---------
 
