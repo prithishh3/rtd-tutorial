@@ -66,6 +66,35 @@ The basic input parameters for **REST** are listed below:
    8. Number of surface seed cells *N*\ :sub:`ss`
    9. Thickness of surface layer *t*
    10. Final structure file *name*
+   
+
+.. _strongly_damaged_sphere:
+
+Strongly Damaged Sphere (SDS)
+-----------------------------
+
+SDS structures are spheres that are brocken.
+
+.. _rough_surface:
+
+Rough Surface (RS)
+------------------
+
+.. _poked_structures:
+
+Poked Structures (PS)
+---------------------
+
+.. _rough_surface_super-ellipsoids:
+
+Rough Surface Super-ellipsoids (RS-SE)
+--------------------------------------
+
+.. _poked_structure_super-ellipsoids:
+
+Poked Structure Super-ellipsoids (PS-SE)
+----------------------------------------
+
 
      
 
