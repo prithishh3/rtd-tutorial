@@ -73,7 +73,30 @@ The basic input parameters for **REST** are listed below:
 Strongly Damaged Sphere (SDS)
 -----------------------------
 
-SDS structures are spheres that are brocken.
+   1. Select the option **Strongly Damaged Sphere**. Upon selecting an option the input panel appears as shown below.
+
+   .. image:: er3.png
+
+   2. Select the **Default Seeds** option from the input panel. Enter the *Radius* of initial structure in number of dipoles (e.g. R\ :sub:`d`\ = 32) and         enter a      filename for the final structre in the **File name** section of the input panel. Finally click the **Calculate** button to start the           calculation.        During calculation an **xterm** window will open and indicate the progress of calculation as shown below.
+
+   .. image:: er4.png
+
+   3. Upon completion of the calculation, the control box will appear below the input panel having *pink* border.
+
+   .. image:: er5.png
+
+   4. Click the **Final structure data** button to import the data calculated for generating the final **SDS** structure in the **Structure file** panel on       the right-hand side.
+
+   .. image:: er7.png
+
+   5. Finally, click the **3D Plot** button to convert all the structure data into *VTK* files and generate the 3D structures initial and final structure      along with the distribution of the different seed cells within the initial structure.
+
+   .. image:: e8.png
+
+   6. Save the structure data by clicking **Save data** button and save the 3D plot by clicking **Save plot** button. 
+   7. Reset or clear the input and output entries by clicking **Clear & Reset** button.
+
+
 
 .. _rough_surface:
 
