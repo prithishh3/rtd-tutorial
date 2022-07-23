@@ -25,4 +25,5 @@ Contents
 .. toctree::
 
    usage
+   tutorial
    api
