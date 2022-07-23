@@ -34,11 +34,17 @@ Installation
 First Run
 ---------
 
-1. Choose the structure option from the upper left box
+1. Choose the structure option from the upper left-hand box
 
 .. image:: er2.png
 
+2. Select the option **Strongly Damaged Sphere**. Upon selecting an option the input panel appears as shown below.
 
+.. image:: er3.png
+
+3. Select the **Default Seeds** option from the input panel. Enter the *Radius* of initial structure in number of dipoles (e.g. $R_d$ = 32) and enter a      filename for the final structre in the **File name** section of the input panel. Finally click the **Calculate** button to start the calculation.        During calculation an **xterm** window will open and indicate the progress of calculation as shown below.
+
+.. image:: er4.png
 
 
 To use Lumache, first install it using pip:
