@@ -10,7 +10,11 @@ release = '0.1'
 version = '0.1.0'
 
 # -- General configuration
+html_static_path = ['_static'] 
 
+def setup(app):
+    app.add_css_file('style1.css')
+    
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
