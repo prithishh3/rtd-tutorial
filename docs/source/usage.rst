@@ -35,6 +35,7 @@ First Run
 ---------
 
 1. Choose the structure option from the upper left box
+
 .. image:: er2.png
 
 
