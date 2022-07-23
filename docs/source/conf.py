@@ -15,12 +15,24 @@ html_static_path = ['_static']
 def setup(app):
     app.add_css_file('style1.css')
     
+
+
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    "sphinx.ext.duration",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.doctest",
+    "sphinx.ext.autosummary",
+    "notfound.extension",
+    "sphinx_copybutton",
+    "sphinx_gallery.gen_gallery",
+    "sphinx.ext.extlinks",
+    "jupyter_sphinx",
+    "sphinx_panels",
+    "pyvista.ext.plot_directive",
+    "pyvista.ext.coverage",
+    "numpydoc",
+    "sphinx.ext.viewcode",
 ]
 
 latex_engine = 'xelatex'
