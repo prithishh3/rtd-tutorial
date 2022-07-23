@@ -57,7 +57,7 @@ The basic input parameters for **REST** are listed below:
       * Poked Structure Super-ellipsoids (PS-SE)
       * Rough Fractal Aggregates (RFA)
       
-   2. Radius of initial spherical structure $R_d$     
+   2. Radius of initial spherical structure $$R_d$$     
       
 
      
