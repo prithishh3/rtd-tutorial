@@ -7,12 +7,12 @@ It uses the CALLTARGET function from DDSCAT to generate ELLIPSOIDS or SUPER-ELLI
 
 It uses the following algorithms :
 
-        1. Strongly Damaged Sphere (SDS)
-        2. Rough Surface (RS)
-        3. Poked Structure (PS)
-        4. Rough Surface Super-ellipsoid (RS-SE)
-        5. Poked Structure Super-ellipsoid (PS-SE)
-        6. Rough Fractal Aggregates (RFA)
+        1. **Strongly Damaged Sphere (SDS)**
+        2. **Rough Surface (RS)**
+        3. **Poked Structure (PS)**
+        4. **Rough Surface Super-ellipsoid (RS-SE)**
+        5. **Poked Structure Super-ellipsoid (PS-SE)**
+        6. **Rough Fractal Aggregates (RFA)**
 
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
