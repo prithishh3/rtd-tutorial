@@ -26,25 +26,19 @@ Installing Dependencies
    
       $ sudo port install openjdk11
       
-2. **Installing gfortran**
-   The different ways to install **gfortran** on different distros are shown below:
-   
-   **Ubuntu**
+2. **Installing PyVista** (version - 0.29.0)
 
-   .. code-block:: console
+   PyVista can be installed from `PyPI <https://pypi.org/project/pyvista/>`_
+   using ``pip`` on Python >= 3.7::
 
-      $ sudo apt-get install openjdk-11-jdk
+      pip install pyvista==0.29.0
 
-   **Fedora**
-   
-   .. code-block:: console
-   
-      $ sudo dnf install java-11-openjdk -y
-      
-   **Mac** 
-      
-   .. code-block:: console
-   
-      $ sudo port install openjdk11
+   You can also visit `PyPI <https://pypi.org/project/pyvista/>`_,
+   `Anaconda <https://anaconda.org/conda-forge/pyvista>`_, or
+   `GitHub <https://github.com/pyvista/pyvista>`_ to download the source.
+
+   See the `Installation <http://docs.pyvista.org/getting-started/installation.html#install-ref.>`_
+   for more details regarding optional dependencies or if the installation through pip doesn't work out.
+
      
 
