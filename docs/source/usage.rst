@@ -45,7 +45,7 @@ First Run
 
 .. image:: er3.png
 
-3. Select the **Default Seeds** option from the input panel. Enter the *Radius* of initial structure in number of dipoles (e.g. $R_d$ = 32) and enter a      filename for the final structre in the **File name** section of the input panel. Finally click the **Calculate** button to start the calculation.        During calculation an **xterm** window will open and indicate the progress of calculation as shown below.
+3. Select the **Default Seeds** option from the input panel. Enter the *Radius* of initial structure in number of dipoles (e.g. R\ :sub:`d`\ = 32) and enter a      filename for the final structre in the **File name** section of the input panel. Finally click the **Calculate** button to start the calculation.        During calculation an **xterm** window will open and indicate the progress of calculation as shown below.
 
 .. image:: er4.png
 
