@@ -1,5 +1,6 @@
 Rough Ellipsoid Structure Tools (REST)
 ===================================
+.. image:: final1.jpg
 
 **REST** is a Java GUI application package for generating realistic cosmic dust structures.
 It uses the CALLTARGET function from DDSCAT to generate ELLIPSOIDS or SUPER-ELLIPSOIDS as base structure depending on the selected structure and shape parameters like the *radius*, *semi-axes* and *exponents*. The program asks the user to provide *seed* cells which are initial set of points randomly selected for the *material* and *space* from the base structure. Depending on the type and number of seeds generated, the code cuts the base structure into *STRONGLY DAMAGED SPHERE*, *ROUGH SURFACES*, *POKED STRUCTURES* and *ROUGH FRACTAL AGGREGATES* by measuring the distance of each point with respect to the *seed* points.
