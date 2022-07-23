@@ -57,8 +57,15 @@ The basic input parameters for **REST** are listed below:
       * Poked Structure Super-ellipsoids (PS-SE)
       * Rough Fractal Aggregates (RFA)
       
-   2. Radius of initial spherical structure R\ :sub:`d`     
-      
+   2. Radius of initial spherical structure R\ :sub:`d` (for the SDS, RS and PS structures)
+   3. Semi-axes *a*, *b* and *c* (for RS-SE and PS-SE structures)
+   4. East-west exponent *e* and north-south exponent *n* (for the RS-SE and PS-SE structures)
+   5. Coordinates in the format *[r, X, Y, Z, material_tag]* where *r* is the radius of each grain of a fractal aggregate and *material_tag* is 1 for           homogeneous material and 1 or 2 for inhomogeneous material (for RFA structures)
+   6. Number of material seed cells *N*\ :sub:`m`
+   7. Number of space seed cells *N*\ :sub:`s`
+   8. Number of surface seed cells *N*\ :sub:`ss`
+   9. Thickness of surface layer *t*
+   10. Final structure file *name*
 
      
 
