@@ -39,6 +39,26 @@ Installing Dependencies
 
    See the `Installation <http://docs.pyvista.org/getting-started/installation.html#install-ref.>`_
    for more details regarding optional dependencies or if the installation through pip doesn't work out.
+   
+   
+.. _input_parameters:
+
+Input Parameters
+----------------
+
+The basic input parameters for **REST** are listed below:
+
+   1. Type of structure
+      
+      * Strongly Damaged Sphere (SDS)
+      * Rough Surface (RS)
+      * Poked Structure (PS)
+      * Rough Surface Super-ellipsoids (RS-SE)
+      * Poked Structure Super-ellipsoids (PS-SE)
+      * Rough Fractal Aggregates (RFA)
+      
+   2. Radius of initial spherical structure $R_d$     
+      
 
      
 
