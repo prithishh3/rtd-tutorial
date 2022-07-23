@@ -20,12 +20,19 @@ Before launching the **REST** package, please ensure following dependencies are 
 Installation
 ------------
 **REST** is very easy to install and run over a linux system or wslg.
-   1. Download the REST.zip file from the link.
-   2. Unzip the package and enter the **REST** directory.
-   3. Open the terminal in the **REST** directory and type the following command to launch the **REST** *GUI*:
+
+1. Download the REST.zip file from the link.
+2. Unzip the package and enter the **REST** directory.
+3. Open the terminal in the **REST** directory and type the following command to launch the **REST** *GUI*:
+
 .. code-block:: console
 
        $./REST.sh
+
+First Run
+---------
+
+
 
 
 To use Lumache, first install it using pip:
