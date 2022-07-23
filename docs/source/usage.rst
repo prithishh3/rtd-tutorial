@@ -46,6 +46,20 @@ First Run
 
 .. image:: er4.png
 
+4. Upon completion of the calculation, the control box will appear below the input panel having *pink* border.
+
+.. image:: er5.png
+
+5. Click the **Final structure data** button to import the data calculated for generating the final **SDS** structure in the **Structure file** panel on the right-hand side.
+
+.. image:: er7.png
+
+6. Finally, click the **3D Plot** button to convert all the structure data into *VTK* files and generate the 3D structures initial and final structure      along with the distribution of the different seed cells within the initial structure.
+
+.. image:: e8.png
+
+7. Save the structure data by clicking **Save data** button and save the 3D plot by clicking **Save plot** button. 
+8. Reset or clear the input and output entries by clicking **Clear & Reset** button.
 
 To use Lumache, first install it using pip:
 
