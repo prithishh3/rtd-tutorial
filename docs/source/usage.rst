@@ -1,7 +1,7 @@
 Usage
 =====
 
-.. _installation:
+.. _dependencies:
 
 Dependencies
 ------------
@@ -16,6 +16,7 @@ Before launching the **REST** package, please ensure following dependencies are 
 .. warning::
    There are some issues in current versions of PyVista due to which it may not be able to plot the .VTK files. Please install *PyVista* version - 0.29.0 or lower than that. Avoid installing recent verions of *PyVista*.
 
+.. _installation:
 
 Installation
 ------------
@@ -30,6 +31,8 @@ Installation
        $./REST.sh
 
 .. image:: er1.png
+
+.. _first_run:
 
 First Run
 ---------
