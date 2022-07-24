@@ -1,6 +1,10 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import datetime
+import locale
+import os
+import sys
 
 project = 'REST'
 copyright = '2021, Graziella'
