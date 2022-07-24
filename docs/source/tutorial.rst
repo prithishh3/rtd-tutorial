@@ -104,18 +104,33 @@ Strongly Damaged Sphere (SDS) [*Custom Seeds*]
    2. Enter the values for **Intitial radius of the sphere** (R\ :sub:`d`\), **No. of Material seed cells** (N\ :sub:`m`\) and **No. of Space seed              cells** (N\ :sub:`s`\).
    3. Enter the **File name** and hit **Calculate** button.
    
-   .. image:: sds_c1.png
+   .. image:: sds_c.png
+   4. Follow the steps (3-7) from the **SDS** (*Default seeds*) section to generate the structre.
 
 
 .. _rough_surface:
 
 Rough Surface (RS)
 ------------------
+   1. In case of RS option select **Rough Surface and Poked Sphere** option and then select **Rough Surface** option from the input panel.
+   2. Enter the values for **Intitial radius of the sphere** (R\ :sub:`d`\), **No. of Material seed cells** (N\ :sub:`m`\), **No. of Space seed              cells** (N\ :sub:`s`\) and the **Thickness**.
+   3. Enter the **File name** and hit **Calculate** button.
+   
+   .. image:: rs1.png
+   4. Follow the steps (3-7) from the **SDS** (*Default seeds*) section to generate the structre.
+
 
 .. _poked_structures:
 
-Poked Structures (PS)
+Poked Structures (PS)[*Homogeneous*]
 ---------------------
+   1. In case of PS (*Homogenous*) option select **Rough Surface and Poked Sphere** option and then select **Poked sphere** option followed by                 **Homogeneous** option from the input panel.
+   2. Enter the values for **Intitial radius of the sphere** (R\ :sub:`d`\), **No. of Material seed cells** (N\ :sub:`m`\), **No. of Internal Space seed       cells** (N\ :sub:`s`\), **No. of surface space seed cells** (N\ :sub:`ss`\) and the **Thickness**.
+   3. Enter the **File name** and hit **Calculate** button.
+   
+   .. image:: ps_h.png
+   4. Follow the steps (3-7) from the **SDS** (*Default seeds*) section to generate the structre.
+
 
 .. _rough_surface_super-ellipsoids:
 
