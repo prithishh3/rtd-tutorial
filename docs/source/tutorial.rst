@@ -130,6 +130,17 @@ Poked Structures (PS)[*Homogeneous*]
    
    .. image:: ps_h.png
    4. Follow the steps (3-7) from the **SDS** (*Default seeds*) section to generate the structre.
+   
+   .. _poked_structures_inhomogeneous:
+
+Poked Structures (PS)[*Inhomogeneous*]
+---------------------
+   1. In case of PS (*Homogenous*) option select **Rough Surface and Poked Sphere** option and then select **Poked sphere** option followed by                 **Inhomogeneous** option from the input panel.
+   2. Enter the values for **Intitial radius of the sphere** (R\ :sub:`d`\), **No. of Material seed cells** (N\ :sub:`m1`\ and N\ :sub:`m2`\), **No. of Internal Space seed       cells** (N\ :sub:`s`\), **No. of surface space seed cells** (N\ :sub:`ss`\) and the **Thickness**.
+   3. Enter the **File name** and hit **Calculate** button.
+   
+   .. image:: ps_inh.png
+   4. Follow the steps (3-7) from the **SDS** (*Default seeds*) section to generate the structre.
 
 
 .. _rough_surface_super-ellipsoids:
