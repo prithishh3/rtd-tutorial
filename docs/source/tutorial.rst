@@ -60,7 +60,7 @@ The basic input parameters for **REST** are listed below:
    2. Radius of initial spherical structure R\ :sub:`d` (for the SDS, RS and PS structures)
    3. Semi-axes *a*, *b* and *c* (for RS-SE and PS-SE structures)
    4. East-west exponent *e* and north-south exponent *n* (for the RS-SE and PS-SE structures)
-   5. Coordinates in the format *[r, X, Y, Z, material_tag]* where *r* is the radius of each grain of a fractal aggregate and *material_tag* is 1 for           homogeneous material and 1 or 2 for inhomogeneous material (for RFA structures)
+   5. Coordinates in the format *[r, X, Y, Z, material_tag]* where *r* is the radius of each grain of a fractal aggregate and *material_tag* is 1 for                         homogeneous material and 1 or 2 for inhomogeneous material (for RFA structures)
    6. Number of material seed cells *N*\ :sub:`m`
    7. Number of space seed cells *N*\ :sub:`s`
    8. Number of surface seed cells *N*\ :sub:`ss`
@@ -70,8 +70,8 @@ The basic input parameters for **REST** are listed below:
 
 .. _strongly_damaged_sphere:
 
-Strongly Damaged Sphere (SDS)
------------------------------
+Strongly Damaged Sphere (SDS) [*Custom Seeds*]
+--------------------------------------------
 
    1. Select the option **Strongly Damaged Sphere**. Upon selecting an option the input panel appears as shown below.
 
@@ -117,19 +117,6 @@ Rough Surface Super-ellipsoids (RS-SE)
 
 Poked Structure Super-ellipsoids (PS-SE)
 ----------------------------------------
-
-
-.. jupyter-execute::
-   :hide-code:
-
-   # Configure for pythreejs
-   import pyvista
-   pyvista.set_jupyter_backend('pythreejs')
-   pyvista.global_theme.background = 'white'
-   pyvista.global_theme.window_size = [600, 400]
-   pyvista.global_theme.axes.show = False
-   pyvista.global_theme.smooth_shading = True
-   pyvista.global_theme.antialiasing = True
 
 
      
