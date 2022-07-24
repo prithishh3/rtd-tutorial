@@ -33,6 +33,7 @@ extensions = [
     "pyvista.ext.coverage",
     "numpydoc",
     "sphinx.ext.viewcode",
+    "myst_nb"
 ]
 
 latex_engine = 'xelatex'
