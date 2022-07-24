@@ -28,8 +28,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.extlinks",
     "sphinx.ext.viewcode",
-   "nbsphinx",
-   "sphinx_gallery.load_style"    
+   "nbsphinx"   
 ]
 
 source_suffix = {
