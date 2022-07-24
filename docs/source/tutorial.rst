@@ -70,7 +70,7 @@ The basic input parameters for **REST** are listed below:
 
 .. _strongly_damaged_sphere:
 
-Strongly Damaged Sphere (SDS) [*Custom Seeds*]
+Strongly Damaged Sphere (SDS) [*Default Seeds*]
 --------------------------------------------
 
    1. Select the option **Strongly Damaged Sphere**. Upon selecting an option the input panel appears as shown below.
@@ -96,6 +96,13 @@ Strongly Damaged Sphere (SDS) [*Custom Seeds*]
    6. Save the structure data by clicking **Save data** button and save the 3D plot by clicking **Save plot** button. 
    7. Reset or clear the input and output entries by clicking **Clear & Reset** button.
 
+.. _strongly_damaged_sphere_custom:
+
+Strongly Damaged Sphere (SDS) [*Custom Seeds*]
+----------------------------------------------
+   1. In case of SDS (*Custom seed*) option select **Custom Seeds**.
+   2. Enter the values for **Intitial radius of the sphere** (R\ :sub:`d`\), **No. of Material seed cells** (N\ :sub:`m`\) and **No. of Space seed              cells** (N\ :sub:`s`\).
+   3. Enter the **File name** and hit **Calculate** button.
 
 
 .. _rough_surface:
