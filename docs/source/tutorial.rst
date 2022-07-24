@@ -119,7 +119,7 @@ Poked Structure Super-ellipsoids (PS-SE)
 ----------------------------------------
 
 
-. jupyter-execute::
+.. jupyter-execute::
 
     import numpy as np
     import pyvista
