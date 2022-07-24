@@ -23,7 +23,6 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.doctest",
     "sphinx.ext.autosummary",
-    "sphinx_copybutton",
     "sphinx_gallery.gen_gallery",
     "sphinx.ext.extlinks",
     "jupyter_sphinx",
