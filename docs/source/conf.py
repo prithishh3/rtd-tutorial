@@ -7,8 +7,8 @@ import os
 import sys
 
 project = 'REST'
-copyright = '2021, Graziella'
-author = 'Graziella'
+copyright = '2022, Prithish Halder'
+author = 'Prithish Halder'
 
 release = '0.1'
 version = '0.1.0'
