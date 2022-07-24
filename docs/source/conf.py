@@ -27,8 +27,7 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx.ext.autosummary",
     "sphinx.ext.extlinks",
-    "sphinx.ext.viewcode",
-   "nbsphinx"   
+    "sphinx.ext.viewcode"   
 ]
 
 source_suffix = {
