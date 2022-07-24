@@ -26,12 +26,12 @@ Installing Dependencies
    
       $ sudo port install openjdk11
       
-2. **Installing PyVista** (version - 0.29.0)
+2. **Installing PyVista**
 
    PyVista can be installed from `PyPI <https://pypi.org/project/pyvista/>`_
    using ``pip`` on Python >= 3.7::
 
-      pip install pyvista==0.29.0
+      pip install pyvista
 
    You can also visit `PyPI <https://pypi.org/project/pyvista/>`_,
    `Anaconda <https://anaconda.org/conda-forge/pyvista>`_, or
