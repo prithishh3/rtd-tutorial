@@ -11,10 +11,10 @@ Before launching the **REST** package, please ensure following dependencies are 
    3. *xterm*
    4. *Python3*
    5. *Visualization-Tool-Kit (VTK)*
-   6. *PyVista-0.29.0*
+   6. *PyVista*
    
 .. warning::
-   There are some issues in current versions of PyVista due to which it may not be able to plot the .VTK files. Please install *PyVista* version - 0.29.0 or lower than that. Avoid installing recent verions of *PyVista*.
+   If there is any problem regarding 3D plot with the current version of *pyvista*, then install *PyVista* version - 0.29.0.
 
 .. _installation:
 
