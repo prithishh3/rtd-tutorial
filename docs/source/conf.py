@@ -27,7 +27,6 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx.ext.autosummary",
     "sphinx.ext.extlinks",
-    "numpydoc",
     "sphinx.ext.viewcode",
     "myst_nb"
 ]
