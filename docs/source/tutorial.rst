@@ -136,7 +136,7 @@ Poked Structures (PS)[*Homogeneous*]
 Poked Structures (PS)[*Inhomogeneous*]
 ---------------------
    1. In case of PS (*Homogenous*) option select **Rough Surface and Poked Sphere** option and then select **Poked sphere** option followed by                 **Inhomogeneous** option from the input panel.
-   2. Enter the values for **Intitial radius of the sphere** (R\ :sub:`d`\), **No. of Material seed cells** (N\ :sub:`m1`\ and N\ :sub:`m2`\), **No. of Internal Space seed       cells** (N\ :sub:`s`\), **No. of surface space seed cells** (N\ :sub:`ss`\) and the **Thickness**.
+   2. Enter the values for **Intitial radius of the sphere** (R\ :sub:`d`\), **No. of Material seed cells** (N\ :sub:`m1` and N\ :sub:`m2`), **No. of         Internal Space seed       cells** (N\ :sub:`s`\), **No. of surface space seed cells** (N\ :sub:`ss`\) and the **Thickness**.
    3. Enter the **File name** and hit **Calculate** button.
    
    .. image:: ps_inh.png
@@ -147,11 +147,74 @@ Poked Structures (PS)[*Inhomogeneous*]
 
 Rough Surface Super-ellipsoids (RS-SE)
 --------------------------------------
+   1. In case of RS option select **Rough Superellipsoids** option and then select **Rough Surface** option from the input panel.
+   2. Enter the values for **Semi-axes (a,b,c)**, **Exponents (e,n)**, **No. of Material seed cells** (N\ :sub:`m`\) and **No. of Space seed                   cells** (N\ :sub:`s`\).
+   3. Enter the **File name** and hit **Calculate** button.
+   
+   .. image:: rs_se.png
+   4. Follow the steps (3-7) from the **SDS** (*Default seeds*) section to generate the structre.
 
-.. _poked_structure_super-ellipsoids:
+.. _poked_structure_super-ellipsoids_homogeneous:
 
-Poked Structure Super-ellipsoids (PS-SE)
+Poked Structure Super-ellipsoids (PS-SE) [*Homogeneous*]
 ----------------------------------------
+   1. In case of PS (*Homogenous*) option select **Rough Superellipsoids** option and then select **Poked sphere** option followed by                           **Homogeneous** option from the input panel.
+   2. Enter the values for **Semi-axes (a,b,c)**, **Exponents (e,n)**, **No. of Material seed cells** (N\ :sub:`m`\), **No. of Internal Space seed             cells** (N\ :sub:`s`\) and **No. of surface space seed cells** (N\ :sub:`ss`\).
+   3. Enter the **File name** and hit **Calculate** button.
+   
+   .. image:: ps_se.png
+   4. Follow the steps (3-7) from the **SDS** (*Default seeds*) section to generate the structre.
+   
+.. _poked_structure_super-ellipsoids_ihomogeneous:   
+   
+Poked Structure Super-ellipsoids (PS-SE) [*Inhomogeneous*]
+----------------------------------------
+   1. In case of PS (*Inhomogenous*) option select **Rough Superellipsoids** option and then select **Poked sphere** option followed by                         **Inhomogeneous** option from the input panel.
+   2. Enter the values for **Semi-axes (a,b,c)**, **Exponents (e,n)**, **No. of Material seed cells** (N\ :sub:`m` and N\ :sub:`m2`), **No. of Internal         Space seed cells** (N\ :sub:`s`\) and **No. of surface space seed cells** (N\ :sub:`ss`\).
+   3. Enter the **File name** and hit **Calculate** button.
+   
+   .. image:: ps_se_inh.png
+   4. Follow the steps (3-7) from the **SDS** (*Default seeds*) section to generate the structre.
+   
+.. _rough_fractal_aggregates:
+
+Rough Fractal Aggregates (RFA)
+------------------------------
+   1. Prepaper a fractal aggregate (FA) made up of *N* spheres each having radius *r* and coordinates (*X, Y, Z*). The format of the FA structure file is       shown below:
+      
+      0  r\ :sub:`0` X\ :sub:`0` Y\ :sub:`0` Z\ :sub:`0` mtag  mtag
+      
+      1  r\ :sub:`1` X\ :sub:`1` Y\ :sub:`1` Z\ :sub:`1` mtag  mtag
+      
+      2  r\ :sub:`2` X\ :sub:`2` Y\ :sub:`2` Z\ :sub:`2` mtag  mtag
+      
+      .        .           .           .           .        .     .
+      
+      .        .           .           .           .        .     .        
+      
+      .        .           .           .           .        .     .
+      
+      
+      N  r\ :sub:`N` X\ :sub:`N` Y\ :sub:`N` Z\ :sub:`N` mtag  mtag
+
+
+      where mtag represents either 1 or 2 for homogeneous or inhomogeneous composition respectively.
+
+
+   2. Click the **Rough Fractal Aggregate** option from the top panel.
+   3. Choose the *FA* structure file by clicking **Browse** button.
+   4. Select **Monomer size scale** between 1 to 10 which is required to scale the aggregate into an initial sphere and click **Save**. The radius of the       initial sphere will be automatically setup depending on the scale factor.
+   5. Click the **Load** button to load the structure and scale it according to the size scale factor.
+   6. Enter the values for **No. of Material seed cells** (N\ :sub:`m`) and **No. of Surface Space seed cells** (N\ :sub:`ss`\).
+   7. Enter the **File name** and hit **Calculate** button.
+   
+   .. image:: rfa_h.png
+   8. For inhomogeneous RFA structures select **Mixed Composition**
+   
+   .. image:: rfa_inh.png
+   9. Follow the steps (3-7) from the **SDS** (*Default seeds*) section to generate the structre.
+   
+         
 
 
      
