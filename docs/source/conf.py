@@ -27,7 +27,6 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx.ext.autosummary",
     "sphinx.ext.extlinks",
-    "sphinx_panels",
     "pyvista.ext.plot_directive",
     "pyvista.ext.coverage",
     "numpydoc",
