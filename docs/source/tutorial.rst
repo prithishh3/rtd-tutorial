@@ -103,6 +103,8 @@ Strongly Damaged Sphere (SDS) [*Custom Seeds*]
    1. In case of SDS (*Custom seed*) option select **Custom Seeds**.
    2. Enter the values for **Intitial radius of the sphere** (R\ :sub:`d`\), **No. of Material seed cells** (N\ :sub:`m`\) and **No. of Space seed              cells** (N\ :sub:`s`\).
    3. Enter the **File name** and hit **Calculate** button.
+   
+   .. image:: sds_c1.png
 
 
 .. _rough_surface:
