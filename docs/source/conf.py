@@ -36,6 +36,14 @@ extensions = [
     "myst_nb"
 ]
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.ipynb': 'myst-nb',
+    '.myst': 'myst-nb',
+}
+
+jupyter_execute_notebooks = "auto"
+
 latex_engine = 'xelatex'
 latex_elements = {
     'fontpkg': r'''
