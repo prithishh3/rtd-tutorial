@@ -26,7 +26,8 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.doctest",
     "sphinx.ext.autosummary",
-    "sphinx.ext.extlinks"  
+    "sphinx.ext.extlinks",
+    "jupyter-sphinx"
 ]
 
 source_suffix = {
