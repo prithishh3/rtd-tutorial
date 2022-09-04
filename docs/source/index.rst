@@ -26,4 +26,4 @@ Contents
 
    usage
    tutorial
-   api
+   download
