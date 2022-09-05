@@ -6,7 +6,7 @@
 version: 2
 
 # If using Sphinx, optionally build your docs in additional formats such as PDF
- formats: all
+formats: all
 
 # Set the version of Python and other tools you might need
 build:
