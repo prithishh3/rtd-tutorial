@@ -26,16 +26,32 @@ Installation
 2. Unzip the package and enter the **REST** directory.
 3. Open the terminal in the **REST** directory and type the following command to launch the **REST** *GUI*:
 
+.. note::
+   **REST** has been tested on Ubuntu-20.04LTS and Ubuntu-22.04LTS base operating systems. It is recommended to use the
+   Ubuntu-20.04 or above to run the package.
+
+.. _first_run:
+
+
+First Run
+---------
+
+Use the following command to run the package from a terminal.
+
+.. code-block:: console
+
+       $cd REST-version-0.1.0
+       
+.. code-block:: console
+
+       $chmod -R 777 ./
+       
 .. code-block:: console
 
        $./REST.sh
 
 .. image:: er1.png
 
-.. _first_run:
-
-First Run
----------
 
 1. Choose the structure option from the upper left-hand box
 
